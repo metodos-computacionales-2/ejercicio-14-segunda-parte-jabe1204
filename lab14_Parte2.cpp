@@ -3,12 +3,12 @@
 #include <fstream>
 using namespace std;
 
-const double k = 50;
+const double k = 100;
 const double m = 2;
 const double lambda = 1;
 const double G = 0.7;
 const double dt = 0.01;
-const double tf = 10.0;
+const double tf = 14.0;
 
 double velocidady(double t,double y, double vy); 
 double aceleraciony(double t,double y, double vy);
